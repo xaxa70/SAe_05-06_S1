@@ -6,6 +6,6 @@
 
 ## Membres du groupe :
 
-Xavier GOUSSET (référent du groupe) :  [Gousset](mailto:xgousset@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Maxence GELIN : [Gelin](mailto:mgelin@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
-Cosme GUILLAUME : [Guillaume](mailto:cguillau@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Xavier GOUSSET (référent du groupe) :  [Gousset](mailto:xavier.gousset@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Maxence GELIN : [Gelin](mailto:maxence.gelin@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
+Cosme GUILLAUME : [Guillaume](mailto:cosme.guillaume@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
