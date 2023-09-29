@@ -2,7 +2,7 @@
 
 ## Dailymotion    
 
-[SAé 05-06_S1 groupe12](https://login.github.io/projet/)
+[SAé 05-06_S1 groupe12](https://xgousset.github.io/SAe_05-06_S1_groupe12/index.html)
 
 ## Membres du groupe :
 
