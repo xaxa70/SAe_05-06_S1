@@ -1,0 +1,100 @@
+
+
+:root {
+    --logo_black: #0d0d0d;
+    --logo_white: #ffffff;
+    --main_blue: #4e7bbc;
+    --side_blue: #a1c6ea;
+    --platinium: #dae3e5;
+}
+
+/* style des images */
+
+
+img.logo {
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    left: 600px;
+    width: 720px;
+}
+
+img.background {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    width: 1920px;
+    height: 1080px;
+}
+
+
+/* style des votons */
+
+
+button {
+    position: absolute;
+    z-index: 5;
+
+    background-color: var(--platinium);
+    width: 240px;
+    height: 100px;
+
+    text-align: center;
+    font-size: 30px;
+
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: var(--side_blue);
+}
+
+button.bouton_histoire {
+    top: 600px;
+    left: 300px
+
+}
+
+button.bouton_technique {
+    top: 600px;
+    left: 1380px
+
+}
+
+button.bouton_economie {
+    top: 840px;
+    left: 460px
+
+}
+
+button.bouton_concurents {
+    top: 840px;
+    left: 1220px
+
+}
+
+/* style des textes */
+
+center-title {
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    left: 480px;
+
+    background-color: var(--side_blue);
+    width: 960px;
+    height: 200px;
+
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 7px;
+    border-color: var(--main_blue);
+}
+
+p.title {
+    position: relative;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
