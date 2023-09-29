@@ -1,22 +1,39 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>accueil</title>
-    <link rel="icon" type="image/png"  href="/favicon.ico">
-</head>
-<body>
-    <h1>Dailymotion</h1>
-    <h5>Slogan à trouver</h5>
-    <form action="histoire.html">
-    <button class="Bouton_page_histoire" type="submit" >Histoire de Dailymotion </button>
-    </form>
-    <form action="architecture.html">
-        <button class="Bouton_page_archi" type="submit" >Architecture de Dailymotion </button>
-        </form>
-        <form action="concurents.html">
-            <button class="Bouton_page_VS" type="submit" >Comment Dailymotion se compare-t-il à ses concurents ? </button>
-            </form>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>accueil</title>
+        <link rel="icon" type="image/png"  href="/favicon.ico">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        
+        <background>
+            <img class="background"
+            src="background.png"
+            alt="Arrière plan"/>
+        </background>
+
+        <center-title>Dailymotion</center-title>
+
+        <logo>
+            <img class="logo"
+            src="logo_dailymotion.png"
+            alt="Le logo dailymotion centré sur la page"/>
+        </logo>
+
+        <button type="button" class="bouton_histoire" onclick="window.location.href='histoire.html'">Histoire</button>
+
+        <button type="button" class="bouton_technique" onclick="window.location.href='technique.html'">Technique</button>
+
+        <button type="button" class="bouton_economie" onclick="window.location.href='economie.html'">Économie</button>
+
+        <button type="button" class="bouton_concurents" onclick="window.location.href='concurents.html'">Comparatif</button>
+
+    </body>
+
 </html>
