@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Loma';
+    src: url('Loma.woff') format('woff'), /* newer browser versions */
+         url('Loma.ttf') format('truetype'); /* older versions */
+}
+
+:root {
+    --logo_black: #0d0d0d;
+    --logo_white: #ffffff;
+    --main_blue: #4e7bbc;
+    --side_blue: #a1c6ea;
+    --platinium: #dae3e5;
+}
+
+html {
+    font-family: Loma;
+}
+
+/* style des images */
+
+container-logo {
+    display: flex;
+    position: absolute;
+
+    top: 1.15625vw;
+    left: 1.5625vw;
+
+    height: 12.5vw;
+    width: 12.5vw;
+
+    justify-content: center;
+    align-items: center;
+}
+
+img.logo {
+    z-index: 2;
+
+    height: 9.375vw;
+    width: 9.375vw;
+}
+
+img.logo:hover {
+    height: 12.5vw;
+    width: 12.5vw;
+}
+
+
+/* style table des matières */
+
+
+img.table {
+    position: fixed;
+    z-index: 10;
+    top: 39vh;
+    left: 3.125vw;
+
+
+    width: 15.625vw;
+    height: 42vh;
+}
+
+
+/* style menu */
+
+
+nav {
+    position: absolute;
+    z-index: 5;
+    top: 8vh;
+    left: 18.75vw;
+
+    display: flex;
+
+}
+
+
+/* style des boutons */
+
+
+button {
+    z-index: 5;
+
+    background-color: var(--main_blue);
+    width: 18.75vw;
+    height: 8vh;
+
+    text-align: center;
+    font-size: 15px;
+
+    border-style: solid;
+    border-color: var(--main_blue);
+}
+
+button.other_page:hover{
+    background-color: var(--platinium);
+}
+
+button.current_page:hover{
+    background-color: var(--platinium);
+}
+
+button.current_page {
+    background-color: var(--side_blue);
+}
+
+
+/* style corps de texte */
+
+
+p {
+    position: absolute;
+    z-index: 5;
+    top: 25vh;
+    left: 25vw;
+
+    width: 62.5vw;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 50vh;;
+}
+
+container-paragraphe {
+
+    width: 62.5vw;
+
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+img.left {
+    position: relative;
+    order: -1;
+
+    max-width: 14.625vw;
+    max-height: 26vh;
+
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+img.right {
+    position: relative;
+    order: 1;
+
+    max-width: 14.625vw;
+    max-height: 26vh;
+
+    margin-left: 20px;
+    margin-right: 10px;
+}
