@@ -115,6 +115,7 @@ center-title {
 
     justify-content: center;
     align-items: center;
+    box-shadow : 0 0 10px 5px lightgray;
 }
 
 p.title {
