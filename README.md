@@ -24,3 +24,11 @@ page "économie":
 .
 
 page "technique":https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io%2FSAe_05-06_S1_groupe12%2Farchitecture.html
+
+
+## choix de conception
+
+Pour réaliser notre site, nous sommes partis sur une répartition de 1 page par personne, pour un total de 4 page + la page
+ d'accueil. Cependant, étant donné que l'un des membres du groupe est parti de l'IUT, nous n'avons pas pu réaliser une page
+ sur la technique de la qualitée espérée. Pour le CSS, Maxence GELIN a été la personne ayant supervisé tout ce qui touchait à la mise en
+ page, le design, etc.
