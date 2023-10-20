@@ -17,10 +17,10 @@ page d'accueil:https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io
 page "comparatif":https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io%2FSAe_05-06_S1_groupe12%2Fconcurents.html
 .
 
-page "histoire":
+page "histoire": https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io%2FSAe_05-06_S1_groupe12%2Fhistoire.html
 .
 
-page "économie":
+page "économie": 
 .
 
 page "technique":https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io%2FSAe_05-06_S1_groupe12%2Farchitecture.html
