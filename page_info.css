@@ -141,6 +141,7 @@ img.left {
 
     margin-left: 10px;
     margin-right: 20px;
+    box-shadow : 0 0 10px 5px lightgray;
 }
 
 img.right {
@@ -152,4 +153,13 @@ img.right {
 
     margin-left: 20px;
     margin-right: 10px;
+    box-shadow : 0 0 10px 5px lightgray;
+}
+
+img.center {
+
+    max-width: 62.5vw;
+
+    align-self: center;
+    box-shadow : 0 0 10px 5px lightgray;
 }
