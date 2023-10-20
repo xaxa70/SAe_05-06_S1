@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: 'Loma';
+    src: url('Loma.woff') format('woff'), /* newer browser versions */
+         url('Loma.ttf') format('truetype'); /* older versions */
+}
 
 :root {
     --logo_black: #0d0d0d;
@@ -6,18 +10,29 @@
     --main_blue: #4e7bbc;
     --side_blue: #a1c6ea;
     --platinium: #dae3e5;
+
+    font-family: Loma;
 }
 
 /* style des images */
 
+container-logo {
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
 
 img.logo {
-    position: absolute;
+
     z-index: 2;
-    top: 200px;
-    left: 600px;
-    width: 720px;
+    width: 37.5vw;
 }
+
 
 img.background {
     position: absolute;
@@ -25,52 +40,56 @@ img.background {
     top: 0;
     left: 0;
 
-    width: 1920px;
-    height: 1080px;
+    width: 100vw;
+    height: 100vh;
 }
 
 
-/* style des votons */
+/* style des boutons */
 
 
 button {
     position: absolute;
     z-index: 5;
 
-    background-color: var(--platinium);
-    width: 240px;
-    height: 100px;
+    background-color: var(--main_blue);
+    width: 12.5vw;
+    height: 9.2vh;
 
     text-align: center;
-    font-size: 30px;
+    font-size: 16px;
 
     border-style: solid;
-    border-radius: 30px;
-    border-width: 5px;
+
+    border-width: 2px;
     border-color: var(--side_blue);
 }
 
+button:hover{
+    background-color: var(--platinium);
+}
+
 button.bouton_histoire {
-    top: 600px;
-    left: 300px
+    top: 55.5vh;
+    left: 15.625vw;
 
 }
 
 button.bouton_technique {
-    top: 600px;
-    left: 1380px
+    top: 55.5vh;
+    left: 71.875vw;
 
 }
 
 button.bouton_economie {
-    top: 840px;
-    left: 460px
+    top: 77.7vh;
+    left: 23.95vw;
 
 }
 
 button.bouton_concurents {
-    top: 840px;
-    left: 1220px
+    top: 77.7vh;
+    left: 64.5vw;
 
 }
 
@@ -79,22 +98,25 @@ button.bouton_concurents {
 center-title {
     position: absolute;
     z-index: 3;
-    top: 100px;
-    left: 480px;
+    top: 8vh;
+    left: 25vw;
 
     background-color: var(--side_blue);
-    width: 960px;
-    height: 200px;
+    width: 50vw;
+    height: 18vh;
 
     border-style: solid;
-    border-radius: 30px;
-    border-width: 7px;
+    border-radius: 16px;
+    border-width: 3px;
     border-color: var(--main_blue);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 }
 
 p.title {
-    position: relative;
-    font-size: 60px;
+    font-size: 8vh;
     font-weight: bold;
-    text-align: center;
 }
