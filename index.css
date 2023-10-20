@@ -63,6 +63,7 @@ button {
 
     border-width: 2px;
     border-color: var(--side_blue);
+    box-shadow : 0 0 10px 5px lightgray;
 }
 
 button:hover{
