@@ -12,7 +12,15 @@ Cosme GUILLAUME : [Guillaume](mailto:cosme.guillaume@edu.univ-fcomte.fr?subject=
 
 ## Vérification W3C : 
 page d'accueil:
+.
+
 page "comparatif":https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io%2FSAe_05-06_S1_groupe12%2Fconcurents.html
+.
+
 page "histoire":
+.
+
 page "économie":
+.
+
 page "technique":https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io%2FSAe_05-06_S1_groupe12%2Farchitecture.html
