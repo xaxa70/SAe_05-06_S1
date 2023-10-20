@@ -11,7 +11,7 @@ Maxence GELIN : [Gelin](mailto:maxence.gelin@edu.univ-fcomte.fr?subject=SAE_1_05
 Cosme GUILLAUME : [Guillaume](mailto:cosme.guillaume@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 
 ## Vérification W3C : 
-page d'accueil:
+page d'accueil:https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io%2FSAe_05-06_S1_groupe12%2Findex.html
 .
 
 page "comparatif":https://validator.w3.org/nu/?doc=https%3A%2F%2Fxgousset.github.io%2FSAe_05-06_S1_groupe12%2Fconcurents.html
